@@ -7,8 +7,10 @@
 	"author": "Bram <bram@bram.codes>",
 	"license": "MIT",
 	"scripts": {
-		"test": "ava test.js",
-		"coverage": "nyc report --reporter=text-lcov | coveralls"
+		"test": "nyc ava test.js",
+		"coverage": "nyc report --reporter=text-lcov > coverage.lcov && yarn run coveralls && yarn run codecov",
+		"coveralls": "cat coverage.lcov | coveralls",
+		"codecov": "codecov"
 	},
 	"devDependencies": {
 		"ava": "^0.25.0",
