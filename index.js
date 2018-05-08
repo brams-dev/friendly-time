@@ -19,7 +19,7 @@ var units = [
 	{ name: 'minute', value: 60000, max: 50, single: 'a minute ago' },
 	{ name: 'hour', value: 3600000, max: 22, single: 'an hour ago' },
 	{ name: 'day', value: 86400000, max: 6, single: 'yesterday' },
-	{ name: 'week', value: 604800000, max: 3, single: 'last week' },
+	{ name: 'week', value: 604800000, max: 3.5, single: 'last week' },
 	{ name: 'month', value: 2592000000, max: 11, single: 'last month' },
 	{ name: 'year', value: 31536000000, max: Infinity, single: 'a year ago' }
 ];
