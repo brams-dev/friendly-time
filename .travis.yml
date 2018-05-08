@@ -1,21 +1,21 @@
 language: node_js
 node_js:
-  - "node"
-  - "lts/*"
-  - "10"
-  - "9"
-  - "8"
-  - "7"
-  - "6"
-  - "5"
-  - "4"
+- node
+- lts/*
+- '10'
+- '9'
+- '8'
+- '7'
+- '6'
+- '5'
+- '4'
 cache: yarn
 after_success: yarn coverage
 deploy:
   on:
-    node: 'node'
+    node: node
     branch: npm
   provider: npm
   email: bram@bram.codes
   api_key:
-    secure: QnZzbQEOqAhpiHyMEdnrbfClVw37gsIo75J3uAdGC+ICHCR4RV0gume/tlOBw26yEu0m7YVA3dmYJfg48wHAVk+ZEsE6fQ2AD2fjIEgStqyELfkUWICJ1Zatk8xZXWuzKx8fOJx4Zzazwv8bwKFwqqPwkbPM+EFlDf+IgyKpzldlHhJvI2j6N3y4RiBMauPw3RLgwfDD8Y41LzjCJ4eTKbCyRKMxsr0EHUfpVQz6i5h5rF5sUcp8O2ugAVdjCfpI13poycvRlAjPaXI3tla4x553delPUd2KtQJli1/iThdYObuJl/OZFiuCFfDxL4oBEj9cf5dk+H1Hv4vfOsImYh8uQL6L78lN6azPgCQslG6bSXDy0nQMrIko79xwRIhmZalpg9Y/0HxL5+MIlmSEOL+a/W8D2dO27c22cJ71LxA6leeSpeaVxnJgbNOLnVXP49EZ/k7AMtE2mC+P541XhS2ZJNJF2G1oe6UV7ouhYZjfxuIi3CewRQrjJdhCQoXyB2ZT5ORmDT08tU3/Ay0VeWc5aP6+DLxdcJUnvCQwwQxhEXA0ElHPOphkb4wbt1RTlRdjml61zu0sMZ28t9x0j/C/y6UTA7ybu4894J5MPYZSIr02iS6ystKPOlJj/Z/AAFZ1i/Tlc6SKeaB8YlcUB34tPEAHOYPN4REgA1HICYY=
+    secure: LFxml0776ipQn7hzHS0fpXAh/Rlcsv6u8bDAvtmeJwu6XeDlQoBnO1nZgCvrblcHm/719odlDdE3HW3bMIt/06HiCPaGr8dT7QykODYD/BUAmhyDAI8H+zY4eYYEiqW6aj54VpNxq8D/RJPv2dct1TynGhU4I00qfiCO3DyG/b/rfrJOG91PfJP0FrakyC1HKpt2r8dZBjdy/rFgcibf1zaaS3QNSK1WCd1w9P9oRrcBANKw1tZX+rNECHAWw1/d+EFhJ/pz+d7zL4RRcAUeu9LTooTjK75INrrKQLbLFzP0uqbonxjqc/coBKaUqHHvC4EBPTPpMxgYx1J8klzKfm93ygmK4+A9YnUalCh9TOjDy1d+XPl5SHwCDZTr7SwMGae80vo3tEGQoSNQXXyGcWrJ1K1moHTeA/ZVNW56RNRvyO5wJf3PsI9K7Pk4dMCWdYEN/ZwfHYplLwcwInn1DEw7ieKJz7DBNYrMOAGd0Z65vFaMYEV3ZFlZwA7GS3DiUy3WX6b52OsA++QlcLHUoPbvST8FIf76NOPKaXiw6nm/0guisnd/EUHQl1RI2m2P11YM56Jp2HyRWgqYvo6wsUlew+yZ20TKrhuZM+ijD5XiHa1YHHQpcQR17ejE1evPqrR7MVHWgbq3EfkO5JRMR05N6lR5SbSOhNJitLMK97g=
