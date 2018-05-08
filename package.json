@@ -1,0 +1,9 @@
+{
+	"name": "friendly-time",
+	"version": "1.0.0",
+	"description": "Prints human friendly timestamps (eg. just now, 5 minutes ago, in 3 days)",
+	"main": "index.js",
+	"repository": "https://github.com/bram-codes/friendly-time.git",
+	"author": "Bram <bram@bram.codes>",
+	"license": "MIT"
+}
