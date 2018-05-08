@@ -5,5 +5,13 @@
 	"main": "index.js",
 	"repository": "https://github.com/bram-codes/friendly-time.git",
 	"author": "Bram <bram@bram.codes>",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"test": "ava test.js"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"coveralls": "^3.0.1",
+		"nyc": "^11.7.1"
+	}
 }
