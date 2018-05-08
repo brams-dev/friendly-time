@@ -7,9 +7,9 @@ function format(date) {
 	}
 
 	for (var i = 0; i < units.length; i++) {
-		if (diff < units[i].max * units[i].value) {
-			var t = Math.floor(diff / units[i].value);
-			return t <= 1 ? untis[i].single : t + ' ' + units[i].name + 's ago';
+		if (diff <= units[i].max * units[i].value) {
+			var t = Math.round(diff / units[i].value);
+			return t <= 1 ? units[i].single : t + ' ' + units[i].name + 's ago';
 		}
 	}
 }
