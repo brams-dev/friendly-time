@@ -1,11 +1,27 @@
 {
 	"name": "friendly-time",
-	"version": "1.0.0",
-	"description": "Prints human friendly timestamps (eg. just now, 5 minutes ago, in 3 days)",
+	"version": "1.1.0",
+	"description": "Prints human friendly timestamps (eg. just now, 5 minutes ago, 3 days from now)",
 	"main": "index.js",
 	"repository": "https://github.com/bram-codes/friendly-time.git",
 	"author": "Bram <bram@bram.codes>",
 	"license": "MIT",
+	"keywords": [
+		"time",
+		"date",
+		"datetime",
+		"format",
+		"parse",
+		"timestamp",
+		"friendly",
+		"human",
+		"humanize",
+		"readable",
+		"duration",
+		"ago",
+		"pretty",
+		"timespan"
+	],
 	"scripts": {
 		"test": "nyc ava test.js",
 		"coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
